@@ -9,13 +9,14 @@
 .social-icons a{
     text-decoration: none;
     padding: 10px;
-    background-color: #f37423;
+    background-color: black;
     margin: 10px;
     border-radius: 50%;
+    height: 55px;
 }
 .social-icons a i{
-    font-size: 2em;
-    color: black;
+    font-size: 2em; 
+    color: white;
     opacity: 0.9;
 }
 
@@ -33,7 +34,7 @@
 .footer-nav ul{
     display: flex;
     justify-content: center;
-    list-style-type: nonedisc ;
+    list-style-type: nonedisc;
 }
 .footer-nav ul li a{
     color: white;
@@ -45,6 +46,7 @@
 }
 .footer-nav ul li a:hover{
     opacity: 1;
+    color: #000;
 }
 .footer-bottom{
     background-color: #f37423;

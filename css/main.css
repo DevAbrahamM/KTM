@@ -5,8 +5,10 @@
   list-style: none;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
+}
+
+body {
   background-image: linear-gradient(to top, #f37423, #e26e27, #d0682a, #bf632d, #ae5d2f, #9c5130, #894730, #753d2f, #592e2a, #3d2022, #221416, #000000);
-  overflow: hidden;
 }
 
 header {
@@ -17,6 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
+  z-index: 9;
 }
 
 .logo {
@@ -60,7 +63,6 @@ header {
 @media (max-width: 900px) {
   header {
     padding: 0px 30px;
-    z-index: 10;
   }
   .bar {
     display: block;
@@ -81,7 +83,7 @@ header {
     width: 100vw;
     background-color: #f37423;
     transition: 0.5s;
-    overflow: hidden;
+    z-index: 9;
   }
   .nav-bar.active {
     height: 350px;
@@ -184,7 +186,7 @@ h2 {
   flex-wrap: wrap;
   gap: 10px;
   align-content: start;
-  position: absolute;
+  margin-top: 10px;
 }
 
 .card {
@@ -227,6 +229,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
+  z-index: 9;
 }
 
 .logo {
@@ -270,7 +273,6 @@ header {
 @media (max-width: 900px) {
   header {
     padding: 0px 30px;
-    z-index: 10;
   }
   .bar {
     display: block;
@@ -291,7 +293,7 @@ header {
     width: 100vw;
     background-color: #f37423;
     transition: 0.5s;
-    overflow: hidden;
+    z-index: 9;
   }
   .nav-bar.active {
     height: 350px;
